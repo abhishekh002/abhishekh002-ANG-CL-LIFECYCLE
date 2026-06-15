@@ -1,6 +1,7 @@
-import { TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
+// Note: Ensure @angular/core is installed via npm install
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({

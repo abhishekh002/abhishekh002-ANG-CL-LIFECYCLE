@@ -45,6 +45,11 @@
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
+// Import the Zone.js bundle with types. Using the explicit path avoids
+// the "Cannot find module or type declarations for side-effect import"
+// TypeScript error in some setups.
+// Import ZoneJS. Use the package entrypoint to ensure TypeScript can resolve types
+// and avoid "Cannot find module or type declarations" errors in some setups.
 import 'zone.js';  // Included with Angular CLI.
 
 
